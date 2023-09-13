@@ -1,0 +1,114 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+}
+.container
+{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: rgb(3, 14, 14);
+}
+.subcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: max-content;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+.heading {
+     place-self: center;
+}
+.input{
+    display: flex;
+}
+.input input,button{
+    font-size: larger;
+    border: none;padding: 5px;
+    height: 40px;
+    width: 800px;
+
+}.input button{
+    width: 70px;
+}
+.input input{
+    width: 400px;
+}
+.input button:hover{
+    transition: ease-in-out 0.2s;
+    background-color: rgba(0, 0, 0, 0.11);
+    cursor: pointer;
+}
+.input input:focus-visible{
+    border: none;
+    outline: none;
+}
+.data
+{
+    height: 7vh;
+    margin: 3px;
+}
+.input-controller{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.11);
+    height: 50px;
+    padding: 8px;
+    border-radius: 10px;
+}
+.para{
+    display: flex;
+    justify-content: center;
+}
+.update-controller button{
+    width: 36px;
+    height: 18px;
+    cursor:pointer;
+    font-size: 9px;
+    padding: 3px;
+    
+}.update-controller{
+    margin-left: 380px;
+    margin-top: -25px;
+}
+.update-controller button:hover{
+    transition: ease-in-out 0.2s;
+    background-color: #0000001c;
+}
+.update-controller{
+    display: none;
+}
+.edit-controller{
+    font-size: 18px;
+    margin-top: -6px;
+    margin-right: 8px;
+}
+textarea:focus-visible{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+textarea{
+    outline: none;
+    background-color: azure;
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+}
+h2{
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+i:hover{
+    background-color: rgba(0, 0, 0, 0.11);
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    padding: 2px;
+}
+.edit {
+}

@@ -1,0 +1,72 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.container{
+    background-color:rgb(127, 251, 255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sub-container{
+    background-color: rgb(109, 109, 172);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.button
+{
+    padding: 15px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 55px; 
+    height: 53px;
+}
+.button:hover
+{
+    cursor: pointer;
+    color: white;
+}
+#text {
+    margin-bottom: 5px;
+text-align: end;}
+
+.sub-container input{
+    padding: 5px;
+    width: 229px;
+    height: 45px;
+    font-size: 27px;border: 0;outline:0;
+    background-color: rgb(255, 255, 255);
+}
+.extra {
+    background-color: rgb(159, 199, 186);
+}
+.extra:hover {
+    background-color: rgb(57, 201, 155);
+}
+.add{
+    width: 114px;
+    background-color: rgb(211, 16, 16);
+   
+}
+.add:hover{
+    background-color: rgb(129, 24, 24);
+}
+.other{
+    background-color: rgb(107, 204, 131);
+}
+.other:hover{
+    background-color: rgb(28, 173, 64);
+}
+.main{
+    background-color: rgb(197, 112, 190);
+}
+.main:hover{
+    background-color: rgb(201, 34, 187);
+}
